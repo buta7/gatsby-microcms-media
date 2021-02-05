@@ -3,6 +3,7 @@
 * microcms:higebobo:hige-gatsby 使用
 * コンテンツを更新したらgatsbyの再起動が必要
 * https://hige-gatsby-microcms.netlify.app にデプロイ
+    * webhookで自動更新
 
 ## セットアップ
 
