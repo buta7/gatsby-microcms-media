@@ -1,4 +1,3 @@
-// gatsby-config.js
 const path = require('path');
 
 require('dotenv').config({
@@ -12,6 +11,16 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-microcms',
+      options: {
+        apiKey: process.env.API_KEY,
+        serviceId: 'hige-gatsby',
+        apis: [{
+          endpoint: 'blog',
+        }],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -37,17 +46,5 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    {
-      resolve: "gatsby-source-microcms",
-      options: {
-        apiKey: process.env.API_KEY,
-        serviceId: 'buta7-gatsby',
-        apis: [
-          {
-            endpoint: "blog",
-          },
-        ],
-      },
-    },
-  ],
+  ]
 }

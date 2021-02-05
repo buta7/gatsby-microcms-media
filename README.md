@@ -1,6 +1,18 @@
 # README
 
-[GatsbyJS \+ microCMSでJamstackなオウンドメディアを作ろう](https://blog.microcms.io/gatsby-microcms-media/?utm_campaign=20210129_updatemail&utm_medium=email&_hsmi=108288096&_hsenc=p2ANqtz-_NxTmH3XrNxbSMTnesF96HwNDGVvlzmmn42N0zn6qwGm-FLp9UGUKExAeTdmu0S-iSMKoDpcvsXXIkVAXTGanrKPINCA&utm_content=108288096&utm_source=hs_email)
+* microcms:higebobo:hige-gatsby 使用
+* コンテンツを更新したらgatsbyの再起動が必要
+* https://hige-gatsby-microcms.netlify.app にデプロイ
 
+## セットアップ
 
-[gatsby\-source\-microcms \| Gatsby](https://www.gatsbyjs.com/plugins/gatsby-source-microcms/)
+### サイト作成
+
+```shell
+npx gatsby new gatsby-microcms-media
+```
+
+## Link
+
+* [GatsbyJS \+ microCMSでJamstackなオウンドメディアを作ろう](https://blog.microcms.io/gatsby-microcms-media/)
+* [gatsby\-source\-microcms \| Gatsby](https://www.gatsbyjs.com/plugins/gatsby-source-microcms/)
