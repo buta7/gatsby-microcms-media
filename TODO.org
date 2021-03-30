@@ -1,0 +1,9 @@
+* org-mode configuration
+#+STARTUP: showall
+#+CATEGORY: gatsby
+#+TODO: TODO(t) WAIT(w) | DONE(d) SOMEDAY(s)
+#+TAGS: theme(t) css(c) html(h) javascript(j) design(d)
+#状態変更 C-c C-t
+#タグ C-c C-c
+* Tasks [0/1]
+** TODO Deploy by github actions
